@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+mlflow_run_ids.txt
+*.joblib
+
+# Models (large binaries — track with Git LFS if needed)
+models/
+
+# Environment
+.env
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — NEVER commit tokens or API keys
+*.token
+ngrok_token.txt
